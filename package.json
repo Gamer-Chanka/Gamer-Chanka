@@ -1,12 +1,16 @@
 {
-  "name": "gamer-chanka",
+  "name": "gamer-chanka-discord",
   "version": "1.0.0",
   "description": "Gamer Chanka bot",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
-  "author": "",
+  "engines": {
+    "node": "15.11.0",
+    "npm": "*"
+  },
+  "author": "Allen Mathew",
   "license": "ISC",
   "dependencies": {
     "discord.js": "^12.5.1",
